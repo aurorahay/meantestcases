@@ -1,0 +1,20 @@
+<!-- public/views/nerds.html -->
+
+<div class="jumbotron text-center">
+    <h1>Nerds and Proud</h1>
+
+    <p>{{ tagline }}</p>
+
+    <div>
+        <p>Add a nerd</p>
+        <input type="text" ng-model="nerdName"/>
+        <button ng-click="addNerd()">Add</button>
+    </div>
+
+    <div ng-if="nerds.length">
+        <p>List of nerds</p>
+        <ol>
+            <li ng-repeat="n in nerds">{{n.name}}</li>
+        </ol>
+    </div>
+</div>
