@@ -10,7 +10,7 @@ MEAN stack sample application. Uses local mongodb connection.
 1. clone the repo
 2. npm install
 3. bower install
-4. make sure mongodb is running 
+4. make sure mongodb is running (ex. C:\mongodb\bin\mongod.exe)
 5. run the application (node server.js) 
 6. nagivate to http://localhost:8080
 
