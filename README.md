@@ -13,3 +13,8 @@ MEAN stack sample application. Uses local mongodb connection.
 4. make sure mongodb is running 
 5. run the application (node server.js) 
 6. nagivate to http://localhost:8080
+
+##References
+https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application
+http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/
+
